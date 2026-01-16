@@ -17,10 +17,26 @@
         </div>
         <nav>
             <ul>
-                <li id="navi"><a href="#home">HOME</a></li>
-                <li id="navi"><a href="#about">ABOUT</a></li>
-                <li id="navi"><a href="#projects">PROJECTS</a></li>
-                <li id="navi"><a href="#contact">CONTACT</a></li>
+                <li class="navi">
+                    <a href="#home">
+                        <i class="fas fa-home"></i> <span>HOME</span>
+                    </a>
+                </li>
+                <li class="navi">
+                    <a href="#about">
+                        <i class="fas fa-user"></i> <span>ABOUT</span>
+                    </a>
+                </li>
+                <li class="navi">
+                    <a href="#project">
+                        <i class="fas fa-briefcase"></i> <span>PROJECTS</span>
+                    </a>
+                </li>
+                <li class="navi">
+                    <a href="#contact">
+                        <i class="fas fa-envelope-open-text"></i> <span>CONTACT</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -37,7 +53,7 @@
         </a>
     </aside>
 
-    <section id="home">
+    <section id="home" style="height: 80vh;">
         <main class="hero">
             <div class="hero-content">
                 <h1>HEY, I'M Suraj Mitake</h1>
@@ -47,7 +63,7 @@
             </div>
         </main>
     </section>
-    <section id="about" style="height: 100vh;">
+    <section id="about">
         <div class="container">
 
             <div class="bio-column">
@@ -82,8 +98,8 @@
 
         </div>
     </section>
-    <section class="project-container">
-        <h2 id="project">Project</h2>
+    <section id="project" class="project-container">
+        <h2 id="project-head">Project</h2>
         <div class="portfolio-container">
 
             <div class="project-row">
@@ -96,7 +112,7 @@
                 <div class="project-details">
                     <h2 class="project-name">AI-Powered Student Assistant Chatbot</h2>
                     <p class="project-desc">
-                        <B>Technologies</B>:JavaScript, ReactJS, Express.js, NodeJS, MySQL. <br>
+                        <b>Technologies</b>:JavaScript, ReactJS, Express.js, NodeJS, MySQL. <br>
                         <b>Description</b>:AI-powered student assistant chatbot is designed to simplify the college
                         admission process by
                         offering instant support to prospective students and their families. It acts as a virtual
@@ -120,7 +136,8 @@
                     <h2 class="project-name">Student Result Management System</h2>
                     <p class="project-desc">
                         <b>Technologies</b>: Java, Java Servlet, HTML, CSS, JavaScript. <br>
-                        <b>Description</b>: A Java-based solution for secure and private file sharing within a local network using a personal computer’s disk space and port 5000.
+                        <b>Description</b>: A Java-based solution for secure and private file sharing within a local
+                        network using a personal computer's disk space and port 5000.
                         Eliminates reliance on external cloud services, ensuring
                         seamless and efficient file management with robust security
                     </p>
