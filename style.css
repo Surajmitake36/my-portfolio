@@ -435,3 +435,23 @@ a {
     max-width: 550px;
 }
 
+@media (max-width: 768px) {
+    .project-row {
+        flex-direction: column; /* Stacks laptop and text vertically */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .laptop-container, .project-details {
+        width: 100%; /* Makes both elements take full width */
+    }
+
+    .screen-text {
+        font-size: 1rem; /* Shrinks text slightly for smaller screens */
+    }
+
+    .project-name {
+        font-size: 1.5rem;
+    }
+}
+
