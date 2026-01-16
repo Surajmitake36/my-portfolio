@@ -371,6 +371,13 @@ a {
     font-family: sans-serif;
 }
 
+#project{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
 .project-row {
     display: flex;        
     flex-direction: row;
